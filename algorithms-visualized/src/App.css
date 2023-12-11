@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Ogg-Bolditalic';
+  src: url('./assets/fonts/Ogg-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ogg-Light';
+  src: url('./assets/fonts/Ogg-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto-Thin';
+  src: url('./assets/fonts/NotoSans-Regular.ttf') format('truetype');
+}
+
+* {
+  background-color: #eeede9;
+}
+
+.App {
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+input {
+  color: black;
+}
+
+h1 {
+  color: #000;
+  font-family: 'Ogg-Bolditalic';
+  font-size: 13rem;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h2{
+  color: #000;
+  font-family: 'Ogg-Light';
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 300;
+}
+
+#algorithms {
+  margin-top: -16rem;
+  margin-left: 1rem;
+}
+h3 {
+  color: #000;
+  font-family: 'Ogg-Bolditalic';
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: -15rem;
+}
+
+h5 {
+  color: #000;
+  font-family: 'Noto-Thin';
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+}
+
+#introHeader {
+  margin-top: -2rem;
+  margin-left: 1rem;
+}
+
+#subtitleAlign {
+  margin-left: 8rem;
+  padding-top: 1rem;
+}
+
+.Header,
+.SubHeader {
+  text-align: left;
+}
+
+.fibImg {
+  flex-shrink: 0;
+  border: 0.1px solid #000;
+  float: right;
+  margin-top: -35rem;
+  margin-right: 1rem;
+}
+
+.blankSpace {
+  height: 20vh;
+  /* background-color: red; */
+}
+.blankSpace-sm {
+  height: 5vh;
+  /* background-color: blue; */
+}
+
+.textContent {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+p {
+  color: #000;
+  font-family: 'Noto-Thin';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+span {
+  color: #000;
+  font-family: 'Noto-Thin';
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.slidecontainer {
+  width: 50%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 30%;
+  height: 2px;
+  background: black;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 5px;
+  height: 25px;
+  background: black;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+

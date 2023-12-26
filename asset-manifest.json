@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/algorithmsVisualized/static/css/main.4b22266d.css",
+    "main.js": "/algorithmsVisualized/static/js/main.6fce7d99.js",
+    "static/js/787.f8e027d4.chunk.js": "/algorithmsVisualized/static/js/787.f8e027d4.chunk.js",
+    "static/media/NotoSans-Regular.ttf": "/algorithmsVisualized/static/media/NotoSans-Regular.e49f7cc81283eef694a3.ttf",
+    "static/media/Ogg-BoldItalic.ttf": "/algorithmsVisualized/static/media/Ogg-BoldItalic.06e91dad3243e6d87aee.ttf",
+    "static/media/Ogg-Light.ttf": "/algorithmsVisualized/static/media/Ogg-Light.8cffe0df021826f8500c.ttf",
+    "static/media/fibonacci.png": "/algorithmsVisualized/static/media/fibonacci.308ff53bc8563b0b45f2.png",
+    "index.html": "/algorithmsVisualized/index.html",
+    "main.4b22266d.css.map": "/algorithmsVisualized/static/css/main.4b22266d.css.map",
+    "main.6fce7d99.js.map": "/algorithmsVisualized/static/js/main.6fce7d99.js.map",
+    "787.f8e027d4.chunk.js.map": "/algorithmsVisualized/static/js/787.f8e027d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b22266d.css",
+    "static/js/main.6fce7d99.js"
+  ]
+}
